@@ -4,7 +4,7 @@
     using System.Collections;
     using System.Collections.Generic;
 
-    public class TestData : IEnumerable<Edge>
+    public class EdgeGen : IEnumerable<Edge>
     {
         private int counter = -1;
         private readonly List<Edge> edges = new List<Edge>();

@@ -46,13 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="solver\DisjointSetSolver.cs" />
+    <Compile Include="solver\BaseSolver.cs" />
+    <Compile Include="solver\FastFindSolver.cs" />
     <Compile Include="solver\Edge.cs" />
+    <Compile Include="solver\FastUnionSolver.cs" />
+    <Compile Include="test\FastFindTests.cs" />
+    <Compile Include="test\FastUnionTests.cs" />
+    <Compile Include="test\LookupTest.cs" />
     <Compile Include="test\MyExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="test\TestCases.cs" />
-    <Compile Include="test\TestData.cs" />
+    <Compile Include="test\EdgeGen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
