@@ -3,7 +3,6 @@
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
-    using System.Dynamic;
     using System.Linq;
 
     class Program
@@ -60,7 +59,7 @@
             }
         }
 
-        static void Main(string[] args)
+        static void Main()
         {
             var tests = new List<TestCase>()
             {
