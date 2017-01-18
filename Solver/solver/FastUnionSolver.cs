@@ -44,7 +44,7 @@
         /// <remarks>
         /// Since this is a fast union implementation, The merge operation just points the curent node to
         /// the other node.To make sure the two nodes are not already in the same partition (and thus form a loop) 
-        /// we have to find their roots
+        /// we have to find their roots.
         /// </remarks>
         public override void Union(int[] lookup, int fromNode, int toNode)
         {
